@@ -61,8 +61,9 @@ int main() {
                iter.substr(5, 5).c_str(), i);
       }
     }
-    printf("\n");
     scanf("%d", &i);
+    if (i != 0)
+      printf("\n");
   }
   return 0;
 }
