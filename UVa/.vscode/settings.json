@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "memory": "cpp",
+        "ratio": "cpp",
+        "__bit_reference": "cpp",
+        "__string": "cpp",
+        "__tree": "cpp",
+        "algorithm": "cpp",
+        "map": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    }
+}
