@@ -1,18 +1,12 @@
 #include <iostream>
 using namespace std;
 
-struct mas{
-  int *x;
-  char *y;
-};
-
 int main() {
-  int *x;
-  char *y;
-  int p = 5;
-  char q = '3';
-  x = &p, y = &q;
-  struct mas m = {x, y};
-  
+  int b[2][3] = {{1, 2, 3}, {4, 5, 6}};
+  int c[3] = {2, 6, 5};
+  int(*d)[3] = &c;
+  int(*a)[3] = b;
+  printf("%x %x\n", *(b + 1), (b + 1)[0][0]);
+
   return 0;
 }
