@@ -13,7 +13,7 @@ void flipBit(char white[], int i) {
 }
 
 void flipFive(char white[], int i) {
-  int m = i / 3, n = i % 3;
+  int m = i / board_dim, n = i % board_dim;
   flipBit(white, i);
   if ((m - 1) >= 0)
     flipBit(white, (m - 1) * board_dim + n);
