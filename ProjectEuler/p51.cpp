@@ -80,7 +80,6 @@ bool combinations(longest num, longest n, longest r)
     }
     while(true)
     {
-        // TODO: Write code to use each combination here
         if(findCount(num, res, n, r) == 8)
             return true;
 
